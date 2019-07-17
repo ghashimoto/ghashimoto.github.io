@@ -1,15 +1,20 @@
 <html>
   <head>
  
-    <!-- ここからJavaScriptファイルの読み込み -->
-    <script src="jquery.js"></script>
-    <script src="bootstrap.js"></script>
     <script>
-        var items = ['ねこ', 'いぬ', 'とり'];
- 
-        for(var i=0; i<items.length; i++) {
-            console.log(items[i]);
-        }
+      
+      var iframe = document.createElement('iframe');
+              iframe.style.display = 'block';
+              iframe.style.opacity = '0';
+              iframe.style.height = '0';
+              iframe.style.overflow = 'hidden';
+              iframe.onload= function() {
+                document.location = "https://play.google.com/store/apps/details?id=jp.ne.benesse.chui.akapen.camera&hl=ja";
+                iframe.parentNode.removeChild(iframe);
+              };
+              iframe.src = ANDROID_SCHEME + "//launch/";
+              document.body.appendChild(iframe);
+      
     </script>
  
   </head>
