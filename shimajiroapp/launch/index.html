@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <script language="javascript" type="text/javascript">
-        // ストア遷移
+        // ストア遷移用関数
         function loadStorePage() {
             var ua = navigator.userAgent;
             if (ua.match(/Android/)) {
@@ -21,9 +21,8 @@
                 document.location = "https://kodomo.benesse.ne.jp/open/";
             }
         }
-
-    // View読み込み時に自動で実行
-    loadStorePage();
+        // HTML読み込み時に自動で実行
+        loadStorePage();
     </script>
 </head>
 
