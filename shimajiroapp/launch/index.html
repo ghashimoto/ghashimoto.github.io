@@ -21,8 +21,10 @@
                 document.location = "https://kodomo.benesse.ne.jp/open/";
             }
         }
-        // HTML読み込み時に自動で実行
-        loadStorePage();
+        window.onload = function() {
+            // HTML読み込み時に自動で実行
+            loadStorePage();
+        }
     </script>
 </head>
 
