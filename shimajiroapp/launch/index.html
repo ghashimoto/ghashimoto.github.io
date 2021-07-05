@@ -3,23 +3,20 @@
 <head>
 
 <script type="text/javascript">
-    window.onpageshow = function() {
-        var ua = navigator.userAgent;
-        if (ua.match(/Android/)) {
-            // Intentスキームを発行する
-            // アプリがインストール済みなら起動し、未インストールならストアに遷移する（Chrome）
-            document.location = "intent://jp.co.benesse.shimajiroapp#Intent;scheme=myApp;package=jp.co.benesse.shimajiroapp.dev;end;";
+    var ua = navigator.userAgent;
+    if (ua.match(/Android/)) {
+        // Intentスキームを発行する
+        // アプリがインストール済みなら起動し、未インストールならストアに遷移する（Chrome）
+        document.location = "intent://jp.co.benesse.shimajiroapp#Intent;scheme=myApp;package=jp.co.benesse.shimajiroapp.dev;end;";
 
-        } else if (ua.match(/iPhone|iPad|iPod/)){
-            // App Storeへ飛ばす
-            // アプリがインストール済みならUniversal Linksでアプリが起動されるためここは読み込まれない
-            document.location = "https://itunes.apple.com/jp/app/id1546176901?mt=8";
-
-        } else {
-            // AndroidでもiOSでもない場合（Webブラウザ想定）は任意のサイトへ遷移させる
-            document.location = "https://kodomo.benesse.ne.jp/open/";
-        }
-    }; 
+    } else if (ua.match(/iPhone|iPad|iPod/)){
+        // App Storeへ飛ばす
+        // アプリがインストール済みならUniversal Linksでアプリが起動されるためここは読み込まれない
+        document.location = "https://itunes.apple.com/jp/app/id1546176901?mt=8";
+    }
+    
+    // AndroidでもiOSでもない場合（Webブラウザ想定）は任意のサイトへ遷移させる
+    document.location = "https://kodomo.benesse.ne.jp/open/";
 </script>
 
 </head>
