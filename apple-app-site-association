@@ -9,6 +9,10 @@
             {
                 "appID": "3Q8A7A77N6.jp.co.benesse.fourskills.camera.dev",
                 "paths": ["/mock/bc/member_test/*"]
+            },
+            {
+                "appID": "M9B3V6H3RN.jp.co.benesse.shimajiroapp.dev",
+                "paths": ["/mock/bc/shimajiro_link/*"]
             }
         ]
     }
