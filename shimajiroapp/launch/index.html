@@ -9,7 +9,7 @@
             if (ua.match(/Android/)) {
                 // AndroidならIntentスキームを発行する
                 // アプリがインストール済みなら起動し、未インストールならストアに遷移する（Chrome）
-                document.location = "intent://jp.co.benesse.shimajiroapp#Intent;scheme=myApp;package=jp.co.benesse.shimajiroapp.dev;end;";
+                document.location = "intent://jp.co.benesse.shimajiroapp#Intent;scheme=myApp;package=jp.co.benesse.shimajiroapp;end;";
 
             } else if (ua.match(/iPhone|iPad|iPod/)) {
                 // iOSならApp Storeへ飛ばす
