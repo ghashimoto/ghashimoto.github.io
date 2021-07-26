@@ -13,14 +13,15 @@
 
             } else if (ua.match(/iPhone|iPad|iPod/)) {
                 // iOSならApp Storeへ飛ばす
-                // アプリがインストール済みならUniversal Linksでアプリが起動されるためここは読み込まれない
+                // アプリがインストール済みならUniversal Linksでアプリが起動されるためこのHTMLは読み込まれない
                 document.location = "https://itunes.apple.com/jp/app/id1546176901?mt=8";
 
             } else {
-                // AndroidでもiOSでもない場合（Webブラウザ想定）は任意のサイトへ遷移させる
+                // AndroidでもiOSでもない場合（Webブラウザを想定）は任意のサイトへ遷移させる
                 document.location = "https://kodomo.benesse.ne.jp/open/";
             }
         }
+        
         window.onload = function() {
             // HTML読み込み時に自動で実行
             loadStorePage();
