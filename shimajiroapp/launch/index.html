@@ -10,8 +10,7 @@
                 // AndroidならIntentスキームを発行する
                 // アプリがインストール済みなら起動し、未インストールならストアに遷移する（Chrome）
                 // また、URLのクエリパラメータを取得してIntentに紐づけることで、アプリ内でパラメータを取得する
-                var param = location.search;
-                document.location = "intent://jp.co.benesse.shimajiroapp" + param + "#Intent;scheme=myApp;package=jp.co.benesse.shimajiroapp.dev;end;";
+                document.location = `intent://jp.co.benesse.shimajiroapp${location.search}#Intent;scheme=myApp;package=jp.co.benesse.shimajiroapp.dev;end;`;
 
             } else if (ua.match(/iPhone|iPad|iPod/)) {
                 // iOSならApp Storeへ飛ばす
