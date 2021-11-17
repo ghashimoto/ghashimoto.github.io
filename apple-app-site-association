@@ -34,8 +34,5 @@
                 ]
             }
         ]
-    },
-    "webcredentials": {
-        "apps": [ "M9B3V6H3RN.jp.co.benesse.shimajiroapp.dev" ]
-    },
+    }
 }
