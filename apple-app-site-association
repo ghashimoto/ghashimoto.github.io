@@ -3,6 +3,19 @@
         "apps": [],
         "details": [
             {
+                "appIDs": [
+                    "M9B3V6H3RN.jp.co.benesse.shimajiroapp.dev"
+                ],
+                "components": [
+                    {
+                        "/": "/shimajiroapp/launch/*"
+                    },
+                    {
+                        "/": "/shimajiroapp/launch_ouen_net/*"
+                    }
+                ]
+            },
+            {
                 "appID": "M9B3V6H3RN.jp.co.ipsys.bccamera.dev",
                 "paths": ["/mock/bc/member_test/*"]
             },
