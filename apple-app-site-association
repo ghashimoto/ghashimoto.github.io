@@ -3,9 +3,8 @@
         "apps": [],
         "details": [
             {
-                "appIDs": [
-                    "M9B3V6H3RN.jp.co.benesse.shimajiroapp.dev"
-                ],
+                "appIDs": ["M9B3V6H3RN.jp.co.benesse.shimajiroapp.dev"],
+                "appID": "M9B3V6H3RN.jp.co.benesse.shimajiroapp.dev",
                 "components": [
                     {
                         "/": "/shimajiroapp/launch/*"
@@ -13,6 +12,10 @@
                     {
                         "/": "/shimajiroapp/launch_ouen_net/*"
                     }
+                ],
+                "paths": [
+                    "/shimajiroapp/launch/*",
+                    "/shimajiroapp/launch_ouen_net/*"
                 ]
             },
             {
@@ -31,5 +34,8 @@
                 ]
             }
         ]
-    }
+    },
+    "webcredentials": {
+        "apps": [ "M9B3V6H3RN.jp.co.benesse.shimajiroapp.dev" ]
+    },
 }
