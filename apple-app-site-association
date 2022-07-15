@@ -14,7 +14,8 @@
                 "appID": "M9B3V6H3RN.jp.co.benesse.shimajiroapp.dev",
                 "paths": [
                     "/shimajiroapp/launch/*",
-                    "/shimajiroapp/launch_ouen_net/*"
+                    "/shimajiroapp/launch_ouen_net/*",
+                    "/shimajiroapp/launch_type_registration/*"
                 ]
             }
         ]
