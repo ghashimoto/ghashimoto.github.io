@@ -6,12 +6,12 @@
         // ストア遷移用関数
         function loadStorePage() {
             // 元ネタはlaunch/index.html。SSL保護された別サイトにリダイレクトさせる
-            document.location = "https://kodomo.benesse.ne.jp/open/";
+            document.location = "http://192.168.1.206:3000/html/shimaclub/redirectToHttps.html";
         }
         
         window.onload = function() {
             // HTML読み込み時に自動で実行
-            document.location = "https://kodomo.benesse.ne.jp/open/";
+            loadStorePage();
         }
     </script>
 </head>
