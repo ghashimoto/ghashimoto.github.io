@@ -15,5 +15,13 @@
     "sha256_cert_fingerprints": [
       "98:BD:39:45:08:B0:3C:F3:EA:A1:FA:BA:13:BE:F0:AC:83:E0:1B:91:ED:52:B1:78:19:21:75:12:41:44:2E:99"
     ]
+},{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "jp.co.benesse.shimajiroapp.dev",
+    "sha256_cert_fingerprints": [
+      "E8:B0:E1:E9:78:4E:75:BE:97:D0:E3:21:A7:39:66:1A:4A:67:82:CB:AD:37:82:03:EE:7D:CE:D7:10:DD:7D:B8"
+    ]
   }
 }]
