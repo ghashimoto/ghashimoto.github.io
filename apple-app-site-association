@@ -4,11 +4,19 @@
         "details": [
             {
                 "appID": "M9B3V6H3RN.ipsys.co.jp.LaunchingAppTestFrom",
-                "paths": ["/mock/bc/member_test/*"]
+                "paths": [
+                    "/mock/bc/member_test/*",
+                    "/shimajiroapp/launch/*",
+                    "/shimajiroapp/launch_ouen_net/*",
+                ]
             },
             {
                 "appID": "M9B3V6H3RN.ipsys.co.jp.LaunchingAppTestTo",
-                "paths": ["/mock/bc/member_test/*"]
+                "paths": [
+                    "/mock/bc/member_test/*",
+                    "/shimajiroapp/launch/*",
+                    "/shimajiroapp/launch_ouen_net/*",
+                ]
             },
             {
                 "appID": "M9B3V6H3RN.jp.co.ipsys.bccamera.dev",
