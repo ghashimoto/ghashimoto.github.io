@@ -3,19 +3,14 @@
         "apps": [],
         "details": [
             {
-                "appID": "M9B3V6H3RN.ipsys.co.jp.LaunchingAppTestFrom",
+                "appIDs": [
+                    "M9B3V6H3RN.ipsys.co.jp.LaunchingAppTestFrom",
+                    "M9B3V6H3RN.ipsys.co.jp.LaunchingAppTestTo"
+                ],
                 "paths": [
                     "/mock/bc/member_test/*",
                     "/shimajiroapp/launch/*",
-                    "/shimajiroapp/launch_ouen_net/*",
-                ]
-            },
-            {
-                "appID": "M9B3V6H3RN.ipsys.co.jp.LaunchingAppTestTo",
-                "paths": [
-                    "/mock/bc/member_test/*",
-                    "/shimajiroapp/launch/*",
-                    "/shimajiroapp/launch_ouen_net/*",
+                    "/shimajiroapp/launch_ouen_net/*"
                 ]
             },
             {
